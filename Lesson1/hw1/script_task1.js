@@ -12,7 +12,6 @@ let num_7=16;
 let bl_1=true;
 let bl_2=false;
 
-
 console.log(hello);
 console.log(owu);
 console.log(com);
