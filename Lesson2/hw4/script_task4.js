@@ -1,0 +1,63 @@
+let users=[
+    user1={
+        name:'user1',
+        username:'username1',
+        password:'23545lkj'
+    },
+    user2={
+        name:'user2',
+        username:'username2',
+        password:'258kjiuy'
+    },
+    user3={
+        name:'user3',
+        username:'username3',
+        password:'154oij548'
+    },
+    user4={
+        name:'user4',
+        username:'username4',
+        password:'0215kjui6'
+    },
+    user5={
+        name:'user5',
+        username:'username5',
+        password:'02158kjuy'
+    },
+    user6={
+        name:'user6',
+        username:'username6',
+        password:'02158lkjuy'
+    },
+    user7={
+        name:'user7',
+        username:'username7',
+        password:'2514pkjgf'
+    },
+    user8={
+        name:'user8',
+        username:'username8',
+        password:'12548kiju'
+    },
+    user9={
+        name:'user9',
+        username:'username9',
+        password:'02158lkoij'
+    },
+    user10={
+        name:'user10',
+        username:'username10',
+        password:'2105lkoij'
+    }
+
+]
+console.log(users[0].password);
+console.log(users[1].password);
+console.log(users[2].password);
+console.log(users[3].password);
+console.log(users[4].password);
+console.log(users[5].password);
+console.log(users[6].password);
+console.log(users[7].password);
+console.log(users[8].password);
+console.log(users[9].password);
