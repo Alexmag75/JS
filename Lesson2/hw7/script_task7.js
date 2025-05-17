@@ -1,4 +1,4 @@
-let time=+prompt('enter a');
+let time=+prompt('enter time');
 if (time>=0 && time<15) {
     console.log('1 частина')
 }
