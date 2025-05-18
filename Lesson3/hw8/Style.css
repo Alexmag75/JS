@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.users-box{
+    width:90vw;
+    display:inline;
+    flex-wrap: wrap;
+    }
+.user-block{
+    display:inline-block;
+    width:46%;
+    height:180px;
+    border: black solid 1px;
+    padding:10px;
+    margin:10px;
+}
+h3{
+    font-size:16px;
+}
