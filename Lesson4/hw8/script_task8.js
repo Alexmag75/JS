@@ -1,5 +1,4 @@
 let list_array=[5,'text',true];
-let n=10;
 
 
 function list_print(list){
