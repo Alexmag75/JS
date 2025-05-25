@@ -16,10 +16,8 @@ let users=[
     }
 ]
 
-function user_print(user){
-
+let userPrint=(user)=>{
     for(let user of users){
-
         document.write(`<div>`);
         document.write(`<p>${user.id}</p>`);
         document.write(`<p>${user.name}</p>`);
@@ -27,4 +25,4 @@ function user_print(user){
         document.write(`</div>`);
     }
 }
-user_print(users);
+userPrint(users);
