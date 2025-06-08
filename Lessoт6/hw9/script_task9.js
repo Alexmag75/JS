@@ -67,3 +67,12 @@ let coursesArray = [
         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
     }
 ];
+
+let coursModuleSass=coursesArray.filter(cours=>{
+    return cours.modules.includes('sass');
+});
+console.log(coursModuleSass);
+coursModuleSass=coursesArray.filter(cours=>{
+    return cours.modules.includes('docker');
+});
+console.log(coursModuleSass);
