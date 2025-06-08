@@ -1,9 +1,15 @@
-let list='Список';
-let n=10;
+let arr=[20,10,50,40,30];
 
-let listPrint=(list,n)=>{
-    document.write(`<ul>`);
-    for(let i=0;i<n;i++){document.write(`<li>${list}</li>`); }
-    document.write(`</ul>`);
+function sortNums(array,direction){
+    if(direction==='ascending'){
+        array=array.sort((a,b)=>{return a-b;});
+    }
+    if(direction==='descending'){
+        array=array.sort((a,b)=>{return b-a;});
+    }
+    return array;
 }
-listPrint(list,n);
+
+console.log(sortNums(arr,'ascending'));
+
+console.log(sortNums(arr,'descending'));

@@ -1,10 +1,20 @@
-let listArray=[5,'text',true];
+let coursesAndDurationArray = [
 
+    {title: 'JavaScript Complex', monthDuration: 5},
 
-let listPrint=(list)=>{
-    document.write(`<ul>`);
-    for(const list_arr of list)
-             {document.write(`<li>${list_arr}</li>`); }
-    document.write(`</ul>`);
-}
-listPrint(listArray);
+    {title: 'Java Complex', monthDuration: 6},
+
+    {title: 'Python Complex', monthDuration: 6},
+
+    {title: 'QA Complex', monthDuration: 4},
+
+    {title: 'FullStack', monthDuration: 7},
+
+    {title: 'Frontend', monthDuration: 4}
+
+];
+console.log(coursesAndDurationArray.sort((a,b) => a.monthDuration - b.monthDuration));
+console.log(coursesAndDurationArray.filter(a => a.monthDuration > 5));
+console.log(coursesAndDurationArray.map(function (value,index) {
+    return {...value, id:index+1}
+}));
