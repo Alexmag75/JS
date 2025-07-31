@@ -15,7 +15,6 @@ Array.prototype.Filter=function (condition) {
     for (const element of this) {
         if (condition(element)) {
             mas.push(element);
-            console.log(element);
         }
     }
     return mas;
