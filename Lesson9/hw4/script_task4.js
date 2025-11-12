@@ -18,10 +18,20 @@ let coursesAndDurationArray = [
 
 for(const  course of coursesAndDurationArray) {
 
-    const box=document.createElement("div");
-    document.body.appendChild(box);
-    box.appendChild(document.createTextNode(course.title));
-    box.appendChild(document.createTextNode(course.monthDuration));
+    const div=document.createElement('div');
+    const h2=document.createElement('h2');
+    const p=document.createElement('p');
+    div.classList.add('item');
+    div.classList.add('h2');
+    div.classList.add('p');
+
+    h2.innerText = course.title;
+    p.innerText=course.monthDuration;
+    div.append(h2,p);
+
+    document.body.appendChild(div);
+
+
 
 }
 
