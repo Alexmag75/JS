@@ -1,0 +1,22 @@
+.wrap{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    color: red;
+    font-size: 14px;
+}
+.collapse{
+    background-color: #c6b51c;
+    color: #0059ff;
+    font-size: 14px;
+}
+.alpha{
+    background-color: #7f81ff;
+    color: #fff200;
+    font-size: 14px;
+}
+.beta{
+    background-color: #bc8686;
+    color: #0aec32;
+    font-size: 14px;
+}
