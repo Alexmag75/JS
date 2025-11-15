@@ -1,12 +1,12 @@
-.item{
-    width: 150px;
-    background-color: #0aec32;
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background-color: #92b161;
+
 }
-h2{
-    color: white;
-    font-size: 24px;
-}
-p{
-    color: #771919;
-    font-size: 18px;
+.num{
+    font-size: 100px;
 }
