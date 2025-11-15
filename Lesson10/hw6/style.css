@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    border:  1px solid #c87474;
+    border-radius: 5px;
+}
+h2{
+    color: #0b0a0a;
+    font-size: 24px;
+}
+p{
+    font-size: 18px;
+    color: #423e3e;
+}
