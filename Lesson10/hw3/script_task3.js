@@ -1,27 +1,24 @@
-let coursesAndDurationArray = [
+let user={}
 
-    {title: 'JavaScript Complex', monthDuration: 5},
+// const btnSave = document.getElementById("save");
+const form=document.forms.myForm;
+form.addEventListener("submit", (event)=>{
 
-    {title: 'Java Complex', monthDuration: 6},
+    event.preventDefault();
 
-    {title: 'Python Complex', monthDuration: 6},
+    const userName=form.name.value;
+    const userSurname=form.surname.value;
+    const userAge=form.age.value;
 
-    {title: 'QA Complex', monthDuration: 4},
-
-    {title: 'FullStack', monthDuration: 7},
-
-    {title: 'Frontend', monthDuration: 4}
-
-];
-
-
-
-for(const  course of coursesAndDurationArray) {
+    user.name=userName;
+    user.surname=userSurname;
+    user.age=userAge;
 
     const box=document.createElement("div");
-    document.body.appendChild(box);
-    box.appendChild(document.createTextNode(course.title));
-    box.appendChild(document.createTextNode(course.monthDuration));
+    box.classList.add("box");
+    box.innerHTML = `Имя ${user.name}<br>Фамилия ${user.surname}<br>Возраст ${user.age}`;
 
-}
+    document.body.appendChild(box);
+})
+
 
