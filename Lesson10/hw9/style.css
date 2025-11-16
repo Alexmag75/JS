@@ -1,0 +1,12 @@
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background-color: #92b161;
+
+}
+.num, .grn  {
+    font-size: 100px;
+}
