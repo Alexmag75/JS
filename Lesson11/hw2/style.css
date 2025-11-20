@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    background: #6caf4a;
+    border:  1px solid #5e5b5b;
+}
+.name{
+    background: #e3acac;
+
+}
+li{
+border-bottom: 1px solid green;
+    margin: 1px;
+}
+ol {
+    padding-left: 20px;
+}
+.instruction {
+    background: #d1bc59;
+}
+.h4_2{
+    background: #d1bc59;
+}
+.preptime{
+    background: #9ad4e8;
+}
+.img{
+    width: 300px;
+}
